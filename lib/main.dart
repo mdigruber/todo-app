@@ -120,7 +120,7 @@ class _TodoListState extends State<TodoList> {
                       ),
                       Container(
                           alignment: Alignment.centerLeft,
-                          width: MediaQuery.of(context).size.width / 2,
+                          width: MediaQuery.of(context).size.width / 3,
                           height: 50,
                           child: TextField(
                             controller: txtController(openTodos[index]),
